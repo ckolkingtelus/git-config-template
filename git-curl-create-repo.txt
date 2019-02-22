@@ -1,0 +1,9 @@
+
+curl -u 'ckolkingtelus:<pw>' -x 198.161.14.25:8080 https://api.github.com/user/repos -d '{"name":"gittest"}'
+
+NOTES: 
+* with proxy "-x <ip-addr>"
+* name of the repo to create is "gittest" (ie. of the data object inside the curly braces, of the "name" key-pair)
+* -u ==> --user
+* -d ==> --data
+
